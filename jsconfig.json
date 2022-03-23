@@ -1,0 +1,33 @@
+/*
+ * @Description:jsconfig.json模板
+ * @Version: 1.0.0
+ * @Author: lax
+ * @Date: 2022-03-11 00:49:25
+ * @LastEditors: lax
+ * @LastEditTime: 2022-03-23 22:38:06
+ * @FilePath: \program_init\jsconfig.json
+ */
+
+/* #############说明#############
+ * 1.添加paths，使得vscode的jsdoc可以识别带@路径的文件注释
+ * 2.支持装饰器语法
+ * #############说明#############
+ */
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "baseUrl": "./",
+        // @路径解析
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        // @路径解析
+        "allowSyntheticDefaultImports": true,
+        //支持装饰器语法
+        "experimentalDecorators": true
+    },
+    "exclude": ["node_modules"],
+    //支持装饰器语法
+    "experimentalDecorators": true,
+}
