@@ -4,13 +4,11 @@
  * @Author: lax
  * @Date: 2022-03-23 22:06:43
  * @LastEditors: lax
- * @LastEditTime: 2022-03-23 23:05:21
+ * @LastEditTime: 2022-03-23 23:11:07
  * @FilePath: \program_init\readme.md
 -->
 # js项目通用文件模板（含自定义插件）
-汇总js类项目的通用或可复用文件模板，含自定义插件。不断更新中
-
-
+汇总js类项目的通用或可复用文件模板，含自定义插件。不断更新中,欢迎沟通交流
 
 # 按文件类型分类检索
 
